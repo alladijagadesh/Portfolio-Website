@@ -1,0 +1,27 @@
+
+
+/* Sticky top navbar */
+.navbar {
+  background-color: #121b2f;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding:0.5rem 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  color: #b6c0d1 !important;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.navbar .nav-link {
+  color: #b6c0d1 !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+  color: #f1f1f1 !important;
+}
